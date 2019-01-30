@@ -32,11 +32,11 @@ make dir DIR=../media
 make allyesconfig
 make -j4
 sudo make install</pre>
-8. Install firmware for DVB adapters
+<p>- Install firmware for DVB adapters</p>
 <pre>cd /usr/src
 wget http://www.tbsdtv.com/download/document/linux/tbs-tuner-firmwares_v1.0.tar.bz2
 sudo tar jxvf tbs-tuner-firmwares_v1.0.tar.bz2 -C /lib/firmware/</pre>
-9. Restart your system
+<p>- Restart your system</p>
 <pre>shutdown -r now</pre>
-10. After reboot check adapters
+<p>- After reboot check adapters</p>
 <pre>ls /dev/dvb</pre>
