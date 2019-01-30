@@ -1,9 +1,10 @@
 # Driver DVB Card
 TBS Driver Installation
 <br>
-1. To install drivers needed root privileges:
+<b>1.Prepare system</b>
+<p>- To install drivers needed root privileges:</p>
 <pre>sudo -s</pre>
-2. Install system utilities to build drivers from the source code:
+<p>- Install system utilities to build drivers from the source code:</p>
 <pre>apt-get install build-essential \
     patchutils \
     libproc-processtable-perl \
