@@ -32,7 +32,6 @@ make dir DIR=../media
 make allyesconfig
 make -j4
 sudo make install</pre>
-<p>- Install firmware for DVB adapters</p>
 or
 <pre>mkdir ljalves-tbsdriver
 cd ljalves-tbsdriver
@@ -43,7 +42,7 @@ make dir DIR=../media
 make distclean
 make
 sudo make install</pre>
-
+<p>- Install firmware for DVB adapters</p>
 <pre>cd /usr/src
 wget http://www.tbsdtv.com/download/document/linux/tbs-tuner-firmwares_v1.0.tar.bz2
 sudo tar jxvf tbs-tuner-firmwares_v1.0.tar.bz2 -C /lib/firmware/</pre>
