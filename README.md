@@ -51,4 +51,6 @@ sudo tar jxvf tbs-tuner-firmwares_v1.0.tar.bz2 -C /lib/firmware/</pre>
 <p>- After reboot check adapters</p>
 <pre>ls /dev/dvb</pre>
 <p>#Automatic Install</p>
+<pre>update/upgrade</pre>
+<pre>install curl</pre>
 <pre>curl https://raw.githubusercontent.com/irtec/Driver_DVB_Card/master/drv-tbs.sh | bash</pre>
