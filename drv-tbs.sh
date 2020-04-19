@@ -24,6 +24,6 @@ make dir DIR=../media
 make allyesconfig
 make -j4
 make install
-wget https://github.com/tbsdtv/media_build/releases/download/latest/dvb-firmwares.tar.bz2
+wget https://master.dl.sourceforge.net/project/my-file/dvb-firmwares.tar.bz2
 tar jxvf dvb-firmwares.tar.bz2 -C /lib/firmware/
 echo 'Done! Please reboot the server'
