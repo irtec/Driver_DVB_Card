@@ -50,3 +50,5 @@ sudo tar jxvf tbs-tuner-firmwares_v1.0.tar.bz2 -C /lib/firmware/</pre>
 <pre>shutdown -r now</pre>
 <p>- After reboot check adapters</p>
 <pre>ls /dev/dvb</pre>
+<p>- Automatic Install Driver TBS</p>
+<pre>curl http://cesbo.com/download/astra/scripts/drv-tbs.sh | bash</pre>
